@@ -3,4 +3,6 @@ PROMPT="exploit@hackbox~%{$fg[green]%}%~%{$fg_bold[blue]%}%{$reset_color%} "
 alias nikto="nikto.pl"
 alias py="./env/bin/python"
 alias clean="rm -frv *~"
-alias ls="ls --color=auto" 
+alias ls="ls --color=auto"
+export GOPATH=/root/go
+export PATH=$PATH:$GOPATH/bin
