@@ -84,4 +84,6 @@ RUN echo "hackbox" > /etc/hostname
 
 VOLUME ['/tools']
 
-CMD zsh
+COPY startscript.sh /root/startscript.sh
+
+CMD /root/startscript.sh
